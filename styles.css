@@ -1,0 +1,38 @@
+body {
+    max-width: fit-content;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;   
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table {
+    display: table;
+    width: 600px;
+    border: 5px groove #72596f;
+    text-align: center;
+}
+
+.table .row {
+    display: table-row;
+}
+
+#header {
+    font-weight: bolder;
+}
+
+#userInfo {
+    font-style: italic;
+    color: rgb(71, 75, 75);
+}
+
+.table .row .cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #72596f;
+}
